@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_sum2[1-2-3]",
+    "uid" : "6a2462fd845d1d72",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615691500684,
+      "stop" : 1615691500685,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "2", "3" ]
+  }, {
+    "name" : "test_sum2[3-5-8]",
+    "uid" : "538e0ee83913532a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615691500722,
+      "stop" : 1615691500722,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "5", "8" ]
+  }, {
+    "name" : "test_sum2[4-7-10]",
+    "uid" : "49e863729b8bbeea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1615691500731,
+      "stop" : 1615691500732,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "7", "10" ]
+  }, {
+    "name" : "test_sum2[9--2-7]",
+    "uid" : "e8a2181b22f4d240",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615691501018,
+      "stop" : 1615691501018,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "9", "-2", "7" ]
+  }, {
+    "name" : "顺丰航空交易系统web自动化测试",
+    "children" : [ {
+      "name" : "登录",
+      "children" : [ {
+        "name" : "登录用例",
+        "uid" : "513d86dbfa714184",
+        "parentUid" : "ae47edb901c96da2fe15f7f9f56d149e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615691504306,
+          "stop" : 1615691505575,
+          "duration" : 1269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "cfdf8a8148921ed2",
+        "parentUid" : "ae47edb901c96da2fe15f7f9f56d149e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691505605,
+          "stop" : 1615691506257,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit'}]}" ]
+      } ],
+      "uid" : "ae47edb901c96da2fe15f7f9f56d149e"
+    } ],
+    "uid" : "0a0947844c6c36ffc58acdd1125252a2"
+  } ]
+}

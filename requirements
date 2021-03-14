@@ -1,0 +1,24 @@
+#采用文件管理所有依赖库
+#pip install -r noteX.txt
+#selenium==版本号
+#request
+#pytest
+#allure-pytest
+#pytest-rerunfailures
+#PYYAML
+
+
+
+或者分步下载
+#selenium
+1-pip install selenium==版本号
+#request
+2-pip install request
+#pytest:
+3-pip install pytest
+#配置allure
+4-allure-pytest
+失败重跑
+5-pip install -U pytest-rerunfailures
+运行模式：加：--reruns NUM
+6-pip install PYYAML

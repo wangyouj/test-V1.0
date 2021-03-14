@@ -1,0 +1,61 @@
+[ {
+  "uid" : "513d86dbfa714184",
+  "name" : "登录用例",
+  "time" : {
+    "start" : 1615691504306,
+    "stop" : 1615691505575,
+    "duration" : 1269
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a2462fd845d1d72",
+  "name" : "test_sum2[1-2-3]",
+  "time" : {
+    "start" : 1615691500684,
+    "stop" : 1615691500685,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "538e0ee83913532a",
+  "name" : "test_sum2[3-5-8]",
+  "time" : {
+    "start" : 1615691500722,
+    "stop" : 1615691500722,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8a2181b22f4d240",
+  "name" : "test_sum2[9--2-7]",
+  "time" : {
+    "start" : 1615691501018,
+    "stop" : 1615691501018,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfdf8a8148921ed2",
+  "name" : "登录用例",
+  "time" : {
+    "start" : 1615691505605,
+    "stop" : 1615691506257,
+    "duration" : 652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49e863729b8bbeea",
+  "name" : "test_sum2[4-7-10]",
+  "time" : {
+    "start" : 1615691500731,
+    "stop" : 1615691500732,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

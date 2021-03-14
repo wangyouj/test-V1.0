@@ -1,0 +1,337 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "NO-47",
+    "children" : [ {
+      "name" : "19180-MainThread",
+      "children" : [ {
+        "name" : "test_sum2[4-7-10]",
+        "uid" : "abb52c84848dc54",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615688622743,
+          "stop" : 1615688622744,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "7", "10" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "cc86702ca7aa7eff",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688628719,
+          "stop" : 1615688629368,
+          "duration" : 649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit'}]}" ]
+      }, {
+        "name" : "test_sum2[3-5-8]",
+        "uid" : "4578a3f307d4b2ec",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688622732,
+          "stop" : 1615688622732,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "5", "8" ]
+      }, {
+        "name" : "test_sum2[9--2-7]",
+        "uid" : "263b17dd1db97b4",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688623054,
+          "stop" : 1615688623054,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9", "-2", "7" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "f93b915ad68fa638",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615688627217,
+          "stop" : 1615688628694,
+          "duration" : 1477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      }, {
+        "name" : "test_sum2[1-2-3]",
+        "uid" : "2dbe126fc3ec3add",
+        "parentUid" : "7ab803939d567984ca0363605bfc7274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688622694,
+          "stop" : 1615688622694,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "3" ]
+      } ],
+      "uid" : "7ab803939d567984ca0363605bfc7274"
+    }, {
+      "name" : "9988-MainThread",
+      "children" : [ {
+        "name" : "test_sum2[3-5-8]",
+        "uid" : "538e0ee83913532a",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691500722,
+          "stop" : 1615691500722,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "5", "8" ]
+      }, {
+        "name" : "test_sum2[1-2-3]",
+        "uid" : "6a2462fd845d1d72",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691500684,
+          "stop" : 1615691500685,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "3" ]
+      }, {
+        "name" : "test_sum2[9--2-7]",
+        "uid" : "e8a2181b22f4d240",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691501018,
+          "stop" : 1615691501018,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9", "-2", "7" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "cfdf8a8148921ed2",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691505605,
+          "stop" : 1615691506257,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit'}]}" ]
+      }, {
+        "name" : "test_sum2[4-7-10]",
+        "uid" : "49e863729b8bbeea",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615691500731,
+          "stop" : 1615691500732,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "7", "10" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "513d86dbfa714184",
+        "parentUid" : "3109844b8566e02c058c37895ed1c374",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615691504306,
+          "stop" : 1615691505575,
+          "duration" : 1269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      } ],
+      "uid" : "3109844b8566e02c058c37895ed1c374"
+    }, {
+      "name" : "20292-MainThread",
+      "children" : [ {
+        "name" : "登录用例",
+        "uid" : "ff2091b363f71834",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615691304947,
+          "stop" : 1615691306389,
+          "duration" : 1442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      }, {
+        "name" : "test_sum2[3-5-8]",
+        "uid" : "fe136c1084443287",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691301045,
+          "stop" : 1615691301045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "5", "8" ]
+      }, {
+        "name" : "test_sum2[1-2-3]",
+        "uid" : "1fafaf930244bd29",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691301034,
+          "stop" : 1615691301035,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "3" ]
+      }, {
+        "name" : "test_sum2[9--2-7]",
+        "uid" : "2fc0eaa3a32f4d8c",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691301394,
+          "stop" : 1615691301394,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9", "-2", "7" ]
+      }, {
+        "name" : "登录用例",
+        "uid" : "ac27a836d365145e",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615691306417,
+          "stop" : 1615691307054,
+          "duration" : 637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit'}]}" ]
+      }, {
+        "name" : "test_sum2[4-7-10]",
+        "uid" : "c9858926acbecce",
+        "parentUid" : "830b77a07fa97cae23893538a2bc6269",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615691301082,
+          "stop" : 1615691301083,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "7", "10" ]
+      } ],
+      "uid" : "830b77a07fa97cae23893538a2bc6269"
+    }, {
+      "name" : "18452-MainThread",
+      "children" : [ {
+        "name" : "test_sum2[3-5-8]",
+        "uid" : "e140f847b0d2edae",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688380729,
+          "stop" : 1615688380729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "5", "8" ]
+      }, {
+        "name" : "test_sum2[9--2-7]",
+        "uid" : "77a6b98208f7ba94",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688381058,
+          "stop" : 1615688381058,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "9", "-2", "7" ]
+      }, {
+        "name" : "test_login[listcases0]",
+        "uid" : "e81a6912b175781e",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615688381065,
+          "stop" : 1615688381065,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      }, {
+        "name" : "test_sum2[4-7-10]",
+        "uid" : "66da8f190df23dda",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615688380740,
+          "stop" : 1615688380741,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "7", "10" ]
+      }, {
+        "name" : "test_login[listcases1]",
+        "uid" : "69005bbff78e979d",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615688381115,
+          "stop" : 1615688381115,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit'}]}" ]
+      }, {
+        "name" : "test_sum2[1-2-3]",
+        "uid" : "746cd17a174dcdbb",
+        "parentUid" : "05d298ed9b03cfc5076c90424d54c8fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615688380719,
+          "stop" : 1615688380719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "2", "3" ]
+      } ],
+      "uid" : "05d298ed9b03cfc5076c90424d54c8fe"
+    } ],
+    "uid" : "0c05f7511705ac3f65f34cf2b8500f30"
+  } ]
+}

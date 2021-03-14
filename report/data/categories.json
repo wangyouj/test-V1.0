@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 11 == 10\n +  where 11 = sum(4, 7)",
+      "children" : [ {
+        "name" : "test_sum2[4-7-10]",
+        "uid" : "49e863729b8bbeea",
+        "parentUid" : "cd8ddd67379afd25177cfc639a8707d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615691500731,
+          "stop" : 1615691500732,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "7", "10" ]
+      } ],
+      "uid" : "cd8ddd67379afd25177cfc639a8707d6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: click() takes from 1 to 2 positional arguments but 3 were given",
+      "children" : [ {
+        "name" : "登录用例",
+        "uid" : "513d86dbfa714184",
+        "parentUid" : "c66a673b12695b098fe25e9c387539a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615691504306,
+          "stop" : 1615691505575,
+          "duration" : 1269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录用例', 'description': '登录失败的用例', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': '//*[@id=\"verify_code\"]', 'value': 1111}, {'name': '点击登录', 'method': 'click', 'locator': 'class_name=J-login-submit', 'value': 'xxxx'}, {'name': '等待', 'method': 'sleep', 'value': 3}]}" ]
+      } ],
+      "uid" : "c66a673b12695b098fe25e9c387539a8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

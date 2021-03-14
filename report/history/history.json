@@ -1,0 +1,118 @@
+{
+  "9178dd2883218f6e0c21a9c5624f056d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfdf8a8148921ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615691505605,
+        "stop" : 1615691506257,
+        "duration" : 652
+      }
+    } ]
+  },
+  "894969370444bd15910f80d79b79e6d6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49e863729b8bbeea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 11 == 10\n +  where 11 = sum(4, 7)",
+      "time" : {
+        "start" : 1615691500731,
+        "stop" : 1615691500732,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4c7c96ff047eb05a6d402f8bb5044cb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "538e0ee83913532a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615691500722,
+        "stop" : 1615691500722,
+        "duration" : 0
+      }
+    } ]
+  },
+  "02171dbed051d1d7e95d2c1067d75ff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a2462fd845d1d72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615691500684,
+        "stop" : 1615691500685,
+        "duration" : 1
+      }
+    } ]
+  },
+  "66fcb886da6738d4745899882cde5159" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8a2181b22f4d240",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615691501018,
+        "stop" : 1615691501018,
+        "duration" : 0
+      }
+    } ]
+  },
+  "aa52ae2d4fe020600d1ace4c86c49c4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "513d86dbfa714184",
+      "status" : "broken",
+      "statusDetails" : "TypeError: click() takes from 1 to 2 positional arguments but 3 were given",
+      "time" : {
+        "start" : 1615691504306,
+        "stop" : 1615691505575,
+        "duration" : 1269
+      }
+    } ]
+  }
+}

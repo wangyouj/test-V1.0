@@ -1,0 +1,89 @@
+{
+  "uid" : "6a2462fd845d1d72",
+  "name" : "test_sum2[1-2-3]",
+  "fullName" : "testcases.test_example.Test_Data#test_sum2",
+  "historyId" : "02171dbed051d1d7e95d2c1067d75ff9",
+  "time" : {
+    "start" : 1615691500684,
+    "stop" : 1615691500685,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Data"
+  }, {
+    "name" : "host",
+    "value" : "NO-47"
+  }, {
+    "name" : "thread",
+    "value" : "9988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "2"
+  }, {
+    "name" : "z",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1fafaf930244bd29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615691301034,
+        "stop" : 1615691301035,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2dbe126fc3ec3add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615688622694,
+        "stop" : 1615688622694,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "746cd17a174dcdbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615688380719,
+        "stop" : 1615688380719,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a2462fd845d1d72.json",
+  "parameterValues" : [ "1", "2", "3" ]
+}

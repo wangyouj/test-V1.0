@@ -1,0 +1,15 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun Mar 14 11:11:40 CST 2021","Sun Mar 14 11:11:40 CST 2021","1","testcases","test_example","Test_Data","","","test_sum2[4-7-10]",""
+"passed","Sun Mar 14 11:11:40 CST 2021","Sun Mar 14 11:11:40 CST 2021","0","testcases","test_example","Test_Data","","","test_sum2[3-5-8]",""
+"broken","Sun Mar 14 11:11:44 CST 2021","Sun Mar 14 11:11:45 CST 2021","1269","testcases","test_web","Test_web","","","登录用例","
+        登录成功的用例
+        :param listcases:
+        :return: None
+        "
+"passed","Sun Mar 14 11:11:40 CST 2021","Sun Mar 14 11:11:40 CST 2021","1","testcases","test_example","Test_Data","","","test_sum2[1-2-3]",""
+"passed","Sun Mar 14 11:11:45 CST 2021","Sun Mar 14 11:11:46 CST 2021","652","testcases","test_web","Test_web","","","登录用例","
+        登录成功的用例
+        :param listcases:
+        :return: None
+        "
+"passed","Sun Mar 14 11:11:41 CST 2021","Sun Mar 14 11:11:41 CST 2021","0","testcases","test_example","Test_Data","","","test_sum2[9--2-7]",""

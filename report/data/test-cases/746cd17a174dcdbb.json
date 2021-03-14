@@ -1,0 +1,63 @@
+{
+  "uid" : "746cd17a174dcdbb",
+  "name" : "test_sum2[1-2-3]",
+  "fullName" : "testcases.test_example.Test_Data#test_sum2",
+  "historyId" : "02171dbed051d1d7e95d2c1067d75ff9",
+  "time" : {
+    "start" : 1615688380719,
+    "stop" : 1615688380719,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Data"
+  }, {
+    "name" : "host",
+    "value" : "NO-47"
+  }, {
+    "name" : "thread",
+    "value" : "18452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "2"
+  }, {
+    "name" : "z",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "746cd17a174dcdbb.json",
+  "parameterValues" : [ "1", "2", "3" ]
+}
